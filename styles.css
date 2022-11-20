@@ -1,0 +1,198 @@
+html {
+  box-sizing: border-box;
+  margin: 0, auto;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/* *,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.midContainer {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.mainText {
+  width: 100%;
+  height: 100%;
+  color: #f9faf8;
+}
+
+.secText {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logoText {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.buttonStyle {
+  background-color: #3882f6;
+  color: white;
+  font-weight: 800;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.quoteText {
+  font-size: 36px;
+  font-style: italic;
+}
+#nav {
+  background-color: #1f2937;
+
+  /* font-size: 48px; */
+}
+
+#topBar {
+  justify-content: space-between;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+#logo {
+  margin-top: 20px;
+}
+
+#logo a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+#ulList li {
+  margin: 10px;
+}
+#nav #navMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#textPart {
+  width: 50%;
+}
+
+#textPart h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+#photo {
+  width: 60%;
+  flex: 1;
+}
+
+#photo img {
+  width: 100%;
+  /* height: 300px; */
+}
+
+#ulList {
+  list-style: none;
+  display: flex;
+}
+
+#navMain {
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#infoText h2 {
+  text-align: center;
+}
+#pickText {
+  display: flex;
+  justify-content: space-between;
+}
+.mainPick img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 2px solid blue;
+}
+
+.mainPick p {
+  width: 150px;
+}
+
+#midParagraf {
+  background-color: #e5e7eb;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#midParagraf p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+#inDiv {
+  width: 55%;
+  margin-top: 30px;
+}
+
+#inDiv h4 {
+  float: right;
+  margin: 0;
+}
+
+#endPart {
+  height: 200px;
+  padding-top: 45px;
+}
+#endBox {
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  height: 120px;
+}
+
+#endBox #textStyle {
+  padding-top: 20px;
+  color: white;
+}
+
+#endBox #textStyle h3 {
+  margin-bottom: 0;
+}
+
+#endBox #textStyle p {
+  margin-top: 0;
+}
+
+#endButton {
+  padding-top: 50px;
+}
+
+#endButton button {
+  background-color: #3882f6;
+  border: 1px solid white;
+  padding: 5px 25px;
+  border-radius: 5px;
+  color: white;
+}
+
+#footer {
+  background-color: #1f2937;
+  height: 100px;
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
